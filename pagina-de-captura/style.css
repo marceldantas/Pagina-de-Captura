@@ -1,29 +1,40 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container{
+.container {
     max-width: 1000px;
     margin: auto;
 }
 
-header{
+header {
     background-color: #48c5ce;
     text-align: center;
     color: white;
     padding: 10px;
 }
 
-.title{
+.title {
     font-size: 26px;
 }
 
-section{
-    color: white;
+.formContainer {
+    max-width: 230px;
+    background-color: #ffffffbb;
+    padding: 20px;
+    float: right;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.mb {
+    margin-bottom: 15px;
 }
